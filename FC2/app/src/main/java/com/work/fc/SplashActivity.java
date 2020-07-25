@@ -2,6 +2,7 @@ package com.work.fc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -18,7 +19,7 @@ public class SplashActivity extends AppCompatActivity {
                     sleep(5*1000);
 
                     // After 5 seconds redirect to another intent
-                    Intent i=new Intent(getBaseContext(), MainActivity.class);
+                    Intent i=new Intent(getBaseContext(), LoginActivity.class);
                     startActivity(i);
 
                     //Remove activity
