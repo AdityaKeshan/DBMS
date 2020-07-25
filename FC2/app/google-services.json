@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "856210926580",
+    "firebase_url": "https://factrev-31caa.firebaseio.com",
+    "project_id": "factrev-31caa",
+    "storage_bucket": "factrev-31caa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856210926580:android:3cc0a6f1bdb707923f67a1",
+        "android_client_info": {
+          "package_name": "com.work.fc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856210926580-ip3f3omf6ahof42glt7bq01ovuk1jtka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.work.fc",
+            "certificate_hash": "8740511ddb443fa558a9fc8af8dd57c0c41544a2"
+          }
+        },
+        {
+          "client_id": "856210926580-i7r9h2bgslhq0rrobnkuc20lhidpe0hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQ5_IW100wnzKRrfNWFgvqVmltnx9mgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856210926580-i7r9h2bgslhq0rrobnkuc20lhidpe0hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

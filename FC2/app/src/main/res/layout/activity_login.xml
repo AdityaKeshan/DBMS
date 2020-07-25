@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#A6C7F8">
+    tools:context=".LoginActivity">
 
-
-    <androidx.recyclerview.widget.RecyclerView
+    <com.hbb20.CountryCodePicker
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/recyc"/>
+        android:layout_height="50dp"
+        app:ccp_defaultLanguage="ENGLISH"
+        app:ccp_defaultNameCode="IND"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_contentColor="#A39A9A"
+        app:ccp_arrowColor="#000000"/>
+
 </RelativeLayout>

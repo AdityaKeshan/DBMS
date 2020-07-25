@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:text="TextView"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="8dp"
+                android:max="5"
+                android:scaleX="0.5"
+                android:layout_marginLeft="5dp"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                android:scaleY="0.5"
+                android:stepSize="0.5" />
+
+        <TextView
+            android:id="@+id/subjects"
+            android:layout_marginTop="-7dp"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/rating"
+            android:layout_marginLeft="8dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
