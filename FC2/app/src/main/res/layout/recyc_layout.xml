@@ -7,7 +7,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        card_view:cardElevation="2dp"
         >
+        <FrameLayout
+            android:background="#3378AC"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -17,37 +23,38 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_marginLeft="8dp"
-                android:text="TextView"
-                android:textSize="18sp"
+                android:layout_marginLeft="16dp"
+                android:text="Raj Stationery"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 />
 
-            <RatingBar
-                android:id="@+id/rating"
+            <TextView
+                android:id="@+id/distance"
                 android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/name"
-                android:layout_marginTop="8dp"
-                android:max="5"
-                android:scaleX="0.5"
-                android:layout_marginLeft="5dp"
-                android:transformPivotX="0dp"
-                android:transformPivotY="0dp"
-                android:scaleY="0.5"
-                android:stepSize="0.5" />
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:text="3km"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/subjects"
-            android:layout_marginTop="-7dp"
-            android:layout_width="wrap_content"
-            android:layout_below="@id/rating"
-            android:layout_marginLeft="8dp"
-            android:textStyle="bold"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            />
+            <TextView
+                android:id="@+id/non_rush_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/distance"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="6dp"
+                android:text="3pm to 5pm"
+                android:textSize="16sp"
+                android:textStyle="bold" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 

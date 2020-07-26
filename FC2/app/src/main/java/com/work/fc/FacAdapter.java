@@ -4,7 +4,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RatingBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -29,14 +28,14 @@ public class FacAdapter extends RecyclerView.Adapter<FacAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder
     {
         TextView name;
-        TextView subjects;
-        RatingBar review;
+        TextView distance;
+        TextView non_rush_hours;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             name=itemView.findViewById(R.id.name);
-            subjects=itemView.findViewById(R.id.subjects);
-            review=itemView.findViewById(R.id.rating);
+            distance=itemView.findViewById(R.id.distance);
+            non_rush_hours=itemView.findViewById(R.id.non_rush_hour);
 //            itemView.setTag(this);
 //            itemView.setOnClickListener(onItemClickListener);
 
@@ -52,11 +51,9 @@ public class FacAdapter extends RecyclerView.Adapter<FacAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull FacAdapter.ViewHolder holder, final int position) {
         holder.itemView.setTag(numbers.get(position));
-        holder.name.setText(numbers.get(position).getFaculty_name());
-        holder.review.setRating(Float.parseFloat(numbers.get(position).getRatings()));
-        holder.subjects.setText(numbers.get(position).getSubjects());
-        holder.review.setIsIndicator(true);
-
+        holder.name.setText(numbers.get(position).getName());
+        holder.non_rush_hours.setText(numbers.get(position).getNonRush());
+        holder.distance.setText(numbers.get(position).getDistance());
     }
 
     @Override

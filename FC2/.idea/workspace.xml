@@ -7,40 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa028930-f7af-4a36-9f0f-4881bb1826ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/Fac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/FacAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/LoginActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/SplashActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/icon_edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/spla.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alegreya_sc_bold.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/arbutus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recyc_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheCelebrity/GuessTheCelebrity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheCelebrity/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyFirstGame/MyFirstGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../__MACOSX/GuessTheCelebrity/._GuessTheCelebrity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/FavouriteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_favourite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/work/fc/Fac.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/Fac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/work/fc/FacAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/FacAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/work/fc/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/work/fc/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/recyc_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/recyc_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheCelebrity/GuessTheCelebrity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheCelebrity/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyFirstGame/MyFirstGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/GuessTheCelebrity/._GuessTheCelebrity.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="5ae3e017d140" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -89,38 +76,98 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1fBd7frnKUoUYFajb5fYbqarQoo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-26T10:14:34.929Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FFCC-App/App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projects\FC2\app\src\main\java\com\work\fc" />
-      <recent name="C:\Projects\FC2\app\src\main\res\drawable-v24" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="android.template.-1443556518">
       <recent name="com.work.fc" />
     </key>
-    <key name="android.template.713473828">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.work.fc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\FC2\app" />
       <recent name="C:\Projects\FC2\app\src\main\res\drawable-v24" />
     </key>
+    <key name="android.template.713473828">
+      <recent name="com.work.fc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\FC2\app\src\main\java\com\work\fc" />
+      <recent name="C:\Projects\FC2\app\src\main\res\drawable-v24" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android App.FC-app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FC-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="FC-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -247,26 +294,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="167" key="Downloadable.Font.Dialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1595706560242" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595709100253">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595759118494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595709100253" />
-    <state width="1522" height="215" key="GridCell.Tab.0.bottom" timestamp="1595707899922">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595759118494" />
+    <state width="745" height="210" key="GridCell.Tab.0.bottom" timestamp="1595761719321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1522" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595707899922" />
-    <state width="1522" height="215" key="GridCell.Tab.0.center" timestamp="1595707899922">
+    <state width="745" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595761719321" />
+    <state width="745" height="210" key="GridCell.Tab.0.center" timestamp="1595761719320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1522" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595707899922" />
-    <state width="1522" height="215" key="GridCell.Tab.0.left" timestamp="1595707899921">
+    <state width="745" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595761719320" />
+    <state width="745" height="210" key="GridCell.Tab.0.left" timestamp="1595761719320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1522" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595707899921" />
-    <state width="1522" height="215" key="GridCell.Tab.0.right" timestamp="1595707899922">
+    <state width="745" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595761719320" />
+    <state width="745" height="210" key="GridCell.Tab.0.right" timestamp="1595761719320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1522" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595707899922" />
+    <state width="745" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595761719320" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595695725857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

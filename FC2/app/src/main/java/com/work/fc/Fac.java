@@ -1,37 +1,37 @@
 package com.work.fc;
 
 public class Fac {
-    String faculty_name;
-    String subjects;
-    String ratings;
+    String name;
+    String distance;
+    String non_rush;
 
-    public Fac(String faculty_name, String subjects, String ratings) {
-        this.faculty_name = faculty_name;
-        this.subjects = subjects;
-        this.ratings = ratings;
+    public Fac(String name, String distance, String non_rush) {
+        this.name = name;
+        this.distance = distance;
+        this.non_rush = non_rush;
     }
 
-    public String getFaculty_name() {
-        return faculty_name;
+    public String getName() {
+        return name;
     }
 
-    public void setFaculty_name(String faculty_name) {
-        this.faculty_name = faculty_name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getSubjects() {
-        return subjects;
+    public String getDistance() {
+        return distance;
     }
 
-    public void setSubjects(String subjects) {
-        this.subjects = subjects;
+    public void setDistance(String distance) {
+        this.distance = distance;
     }
 
-    public String getRatings() {
-        return ratings;
+    public String getNonRush() {
+        return non_rush;
     }
 
-    public void setRatings(String ratings) {
-        this.ratings = ratings;
+    public void setNonRush(String non_rush) {
+        this.non_rush = non_rush;
     }
 }

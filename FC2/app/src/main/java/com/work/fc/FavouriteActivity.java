@@ -10,7 +10,8 @@ import com.work.fc.R;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class FavouriteActivity extends AppCompatActivity {
+
     RecyclerView recyclerView;
     RecyclerView.Adapter adapter;
     RecyclerView.LayoutManager layoutManager;
@@ -19,14 +20,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        recyclerView=findViewById(R.id.recyc);
+        recyclerView=findViewById(R.id.fav);
         recyclerView.setHasFixedSize(true);
         numbers=new ArrayList<>();
-        numbers.add(new Fac("Mother Dairy","2km","12pm to 3am"));
+        numbers.add(new Fac("Raj Stationers","5km","4pm to 5pm"));
         adapter=new FacAdapter(this,numbers);
         layoutManager=new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
-
     }
 }
