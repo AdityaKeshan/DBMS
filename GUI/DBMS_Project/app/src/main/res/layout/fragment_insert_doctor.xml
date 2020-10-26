@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctors.InsertDoctor">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+        <EditText
+            android:id="@+id/first_name_doc"
+            android:layout_width="wrap_content"
+            android:minWidth="50dp"
+            android:textAllCaps="true"
+            android:textAlignment="viewStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:hint="First Name"/>
+        <EditText
+            android:id="@+id/last_name_doc"
+            android:layout_marginRight="10dp"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="viewStart"
+            android:layout_width="wrap_content"
+            android:minWidth="50dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/speciality_doc"
+            android:layout_width="match_parent"
+            android:minWidth="50dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:hint="Speciality"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/clinic_no_doc"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:layout_height="wrap_content"
+                android:hint="Clinic number"/>
+        <EditText
+            android:id="@+id/phone_doc"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:minWidth="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:textAlignment="viewStart"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/insert_doctor_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="INSERT"/>
+    </RelativeLayout>
+
+</FrameLayout>

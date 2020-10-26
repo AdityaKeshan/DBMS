@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drug.InsertDrug">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <EditText
+                    android:id="@+id/drug_id"
+                    android:layout_width="wrap_content"
+                    android:minWidth="50dp"
+                    android:textAllCaps="true"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:hint="Drug ID"/>
+                <EditText
+                    android:id="@+id/drug_name"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="viewStart"
+                    android:layout_width="wrap_content"
+                    android:minWidth="50dp"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:hint="Drug Name"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/drug_type"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:hint="Type of Drug"/>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/drug_stock"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:layout_height="wrap_content"
+                android:hint="Drug Stock"/>
+            <EditText
+                android:id="@+id/drug_price"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="numberDecimal"
+                android:textAlignment="viewStart"
+                android:layout_height="wrap_content"
+                android:hint="Price of the Drug"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/drug_insert_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="INSERT"/>
+    </RelativeLayout>
+
+</FrameLayout>

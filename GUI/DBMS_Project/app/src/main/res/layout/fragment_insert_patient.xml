@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patients.InsertPatient">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/id_patient"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:maxLength="10"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:hint="Patient ID"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+                <EditText
+                    android:id="@+id/first_name_patient"
+                    android:layout_width="wrap_content"
+                    android:minWidth="50dp"
+                    android:textAllCaps="true"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:hint="First Name"/>
+                <EditText
+                    android:id="@+id/last_name_patient"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="viewStart"
+                    android:layout_width="wrap_content"
+                    android:minWidth="50dp"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:hint="Last Name"/>
+            </LinearLayout>
+
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/clinic_no_patient"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:minWidth="100dp"
+                android:textAlignment="viewStart"
+                android:inputType="number"
+                android:maxLength="10"
+                android:layout_height="wrap_content"
+                android:hint="Clinic number"/>
+
+            <EditText
+                android:id="@+id/address_patient"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:hint="Address"/>
+            <EditText
+                android:id="@+id/phone_patient"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="phone"
+                android:textAlignment="viewStart"
+                android:layout_height="wrap_content"
+                android:hint="Phone number"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:id="@+id/dob_patient"
+                android:layout_marginTop="10dp"
+                android:focusable="false"
+                android:textSize="18sp"
+                android:hint="Select DOB"
+                android:layout_gravity="center_horizontal"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_button_records"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:id="@+id/new_record"
+                    android:text="New"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/existing"
+                    android:layout_height="wrap_content"
+                    android:text="Existing"/>
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="2">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_button"
+                    android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/cb_inpatient"
+                    android:text="InPatient"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/cb_outpatient"
+                    android:layout_height="wrap_content"
+                    android:text="OutPatient"/>
+                </RadioGroup>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/inpatient_lin_1"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_weight="1"
+                android:hint="IN Date"
+                android:visibility="invisible"
+                android:id="@+id/indate"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:hint="Leave Date"
+                android:id="@+id/leavedate"/>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:id="@+id/inpatient_lin_2"
+                android:weightSum="2">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:hint="Bed No."
+                    android:id="@+id/Bed_no"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:visibility="invisible"
+                    android:hint="Ward Number"
+                    android:id="@+id/ward_no"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/outpatient_lin"
+                android:weightSum="2">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:hint="Out Date"
+                    android:id="@+id/out_date"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:hint="Out Time"
+                    android:id="@+id/out_time"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/patient_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="INSERT"/>
+    </RelativeLayout>
+
+</FrameLayout>

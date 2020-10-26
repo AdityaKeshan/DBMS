@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appointment.InsertAppointment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/lin_insert_appointment"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/appointment_no_insert"
+                android:maxLength="10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Enter your Appointment No"
+                android:inputType="number"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <EditText
+                    android:id="@+id/date_appointment_insert"
+                    android:layout_width="wrap_content"
+                    android:minWidth="50dp"
+                    android:textAllCaps="true"
+                    android:focusable="false"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:hint="Select Date"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:id="@+id/appointment_time_insert"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="true"
+                    android:focusable="false"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="viewStart"
+                    android:layout_width="wrap_content"
+                    android:minWidth="50dp"
+                    android:hint="Select Time"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/appointment_patient_id_insert"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="10dp"
+                android:hint="Enter Patient ID"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/appointment_staff_id_insert"
+                android:layout_width="match_parent"
+                android:minWidth="50dp"
+                android:hint="Enter Staff ID"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/insert_appointment_button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="INSERT"/>
+    </RelativeLayout>
+
+</FrameLayout>
