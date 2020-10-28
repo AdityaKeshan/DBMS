@@ -23,7 +23,108 @@
         android:id="@+id/toolbar_main"
         layout="@layout/toolbar"
         />
-
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:elevation="10dp"
+        android:layout_below="@id/toolbar_main"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/ak"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:id="@+id/ak_name"
+                android:layout_centerHorizontal="true"
+                android:text="ADITYA KESHAN"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/ak_reg"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/ak_name"
+                android:layout_centerHorizontal="true"
+                android:text="19BCE0143"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:elevation="10dp"
+            android:layout_below="@id/ak"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/sa"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:id="@+id/sa_name"
+                    android:layout_centerHorizontal="true"
+                    android:text="SAMARTH AGARWAL"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:id="@+id/sa_reg"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/sa_name"
+                    android:layout_centerHorizontal="true"
+                    android:text="19BCE0209"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@id/sa"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/ys"
+            android:elevation="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:id="@+id/ys_name"
+                    android:layout_centerHorizontal="true"
+                    android:text="YASH SAXENA"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:id="@+id/ys_reg"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/ys_name"
+                    android:layout_centerHorizontal="true"
+                    android:text="19BCE0228"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
     </RelativeLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
